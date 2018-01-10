@@ -1,0 +1,40 @@
+<!doctype html>
+ <html>
+ <body>
+  <title>Number Guesser</title> 
+  <head> 
+    <link rel="stylesheet" type="text/css" href="css/main.css"> 
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,700" rel="stylesheet">
+  </head>
+
+  <header class="numberguesser"> 
+    <h1 class="numberText">Number <span class="guessText">Guesser</span></h1>
+  </header>
+<h3> Set A Range</h3>
+
+<input type="text" id="minNumInput" class="range" placeholder="Min Number"> </input>
+<input type='text' class="range" id="maxNumInput" placeholder="Max Number"></input>
+<br>
+<button role="true" type="submit" class="inputButton" id="submitButton">Submit</button>
+
+  
+<form id="form">
+  <fieldset>
+    <input type="text" class="guess" id="guess"  name="Submit guess here" placeholder= "Enter Your Guess"> 
+  </fieldset>
+</form> 
+
+<input class="inputButton" id="submit-guess" type="button" value="Guess">
+<input class="inputButton" id="clearGuess" type="button" value="Clear" disabled="true">
+  <br>
+  <h3 class="lastguess" id="lastguess"> </h3>
+  <h2 class="number" id="number"> </h2>
+  <h3 class="numbClue" id="numbClue"></h3>
+  <br>
+  <a href="#">
+  <input class="inputButton" id="reset" type="button" value="Reset" disabled="true">
+</a>
+</section>
+<script src="js/script.js"></script> 
+</body>
+</html>

@@ -1,0 +1,86 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body,html{width:100%;height:100%}body{-webkit-font-smoothing:antialiased;-moz-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;-webkit-text-size-adjust:none;margin:0;padding:0;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif}ol,ul{list-style:none}hr{border:0;height:1px;background:#ccc}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}*{margin:0;padding:0;list-style:none;box-sizing:border-box}html,input,select,textarea,button,a{-webkit-tap-highlight-color:rgba(0,0,0,0)}
+
+header {
+  margin: 0;
+  background-color: #404041;
+  width: 100%;
+  text-align: center;
+  height: 100px;
+}
+
+ h1 {
+  color: #DC548A;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 60px;
+  margin:auto;
+}
+
+span {
+  color: white;
+  font-weight: 100;
+}
+
+body {
+  text-align: center;
+}
+
+.inputButton:hover {
+  background-color: #eb008b;
+}
+
+#clearGuess:disabled {
+  background-color: #d0d2d3;
+}
+
+#reset:disabled {
+  background-color: #d0d2d3;
+}
+
+.inputButton {
+  margin: 20px 20px 20px 20px;
+  border-radius: 2em;
+  width: 200px;
+  height: 50px;
+  background: #929497;
+  color: #ffffff;
+  font-size: 24px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
+}
+
+#reset {
+  width: 470px;
+}
+
+h3 {
+  font-weight: 100;
+  color: #404041;
+  padding: 20px 20px 20px 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 36px;
+}
+
+h2 {
+  font-weight: 200;
+  color: #eb008b;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 60px;
+}
+
+.guess {
+    width: 470px;
+    height: 50px;
+    font-size: 2em;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 100;
+}
+
+.range {
+  width: 235px;
+  height: 50px;
+  font-size: 2em;
+  text-align: center;
+  font-weight: 100;
+  margin-top:20px;
+}
